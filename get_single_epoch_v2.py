@@ -46,7 +46,7 @@ def MakeFolders(baseDir, Candcsv):   #i.e. Candcsv = CandInfo["expnum"]
 def DownloadFits(baseDir, CandInfo):
     session = requests.Session()
     DESusername = 'cc359' #Username and Password to be stored separately as either variables or possibly user inputs on session start up
-    DESpassword = 'jerry543' #Now expired pwd (as of 22/08/16, fine to use as demo)
+    DESpassword = '******' 
     base = 'https://desar2.cosmology.illinois.edu/DESFiles/new_archive/Archive/OPS/red/'
 
     for iterator in range(len(CandInfo["expnum"])):
