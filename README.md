@@ -5,7 +5,7 @@ keeping in mind that they might not be completely confident with the basic progr
 
 # get_single_epoch_v2.py 
 
-This script is used to pull the required data given a list of parameters from the DES database in tandem with their Python API "EasyAccess".
+This script is used to pull the required data given a list of parameters from the DES database in tandem with their Python API "EasyAccess". Furthermore MySQL queries were required in order to find the correct tables within the larger DES database to pull information from. These are mentioned in the Dissertation.pdf documentation.
 
 # html_s_epoch.py
 This very simple script was used to generate web pages of the final images to be analysed, the main purpose of this was to be able to present the image data to other members of the DES collaboration in a very simple manner. 
